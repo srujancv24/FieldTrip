@@ -1,0 +1,749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B105A3F1C0752FE008C3174 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B105A3E1C0752FE008C3174 /* CoreLocation.framework */; };
+		4B105A411C075308008C3174 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B105A401C075308008C3174 /* MapKit.framework */; };
+		4B105A431C075345008C3174 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B105A421C075345008C3174 /* Foundation.framework */; };
+		4B105A4A1C0765B3008C3174 /* favorites_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B105A441C0765B3008C3174 /* favorites_icon.png */; };
+		4B105A4B1C0765B3008C3174 /* map_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B105A451C0765B3008C3174 /* map_icon.png */; };
+		4B105A4C1C0765B3008C3174 /* nearby_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B105A461C0765B3008C3174 /* nearby_icon.png */; };
+		4B105A4D1C0765B3008C3174 /* photo_icon_ios.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B105A471C0765B3008C3174 /* photo_icon_ios.jpg */; };
+		4B105A4E1C0765B3008C3174 /* photo_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B105A481C0765B3008C3174 /* photo_icon.png */; };
+		4B105A4F1C0765B3008C3174 /* play-button_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B105A491C0765B3008C3174 /* play-button_icon.png */; };
+		4B665F9A1C17AFD9009CFCF8 /* museum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B665F941C17AFD9009CFCF8 /* museum.jpg */; };
+		4B665F9D1C17AFD9009CFCF8 /* shopping.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B665F971C17AFD9009CFCF8 /* shopping.jpg */; };
+		4B665F9E1C17AFD9009CFCF8 /* sights.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B665F981C17AFD9009CFCF8 /* sights.jpg */; };
+		4B665F9F1C17AFD9009CFCF8 /* games.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B665F991C17AFD9009CFCF8 /* games.jpg */; };
+		4B665FA21C17C470009CFCF8 /* outdoor.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B665FA01C17C470009CFCF8 /* outdoor.png */; };
+		4B665FA51C17C48A009CFCF8 /* Nature & Parks.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B665FA41C17C48A009CFCF8 /* Nature & Parks.png */; };
+		4B9D136D1C0BE85A00B25ED3 /* photo-frame.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B9D135C1C0BE85A00B25ED3 /* photo-frame.png */; };
+		4B9D13741C0CA98F00B25ED3 /* FlickrPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9D13731C0CA98F00B25ED3 /* FlickrPhotosViewController.m */; };
+		4B9D13781C0CAA4600B25ED3 /* FlickrFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9D13771C0CAA4600B25ED3 /* FlickrFetcher.m */; };
+		4B9D137B1C0CAAEC00B25ED3 /* PhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9D137A1C0CAAEC00B25ED3 /* PhotoModel.m */; };
+		4BBD42471C19235C001B2B87 /* icon-camera-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BBD42461C19235C001B2B87 /* icon-camera-128.png */; };
+		B812198B1C0CF0270007C4BF /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B812198A1C0CF0270007C4BF /* ImageViewController.m */; };
+		B84D34461C0FCBF400AAE1FE /* Syracuse.gpx in Resources */ = {isa = PBXBuildFile; fileRef = B84D34451C0FCBF400AAE1FE /* Syracuse.gpx */; };
+		B86FB3E11C1751FD0060F494 /* whatsapp-Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B86FB3E01C1751FD0060F494 /* whatsapp-Logo.jpg */; };
+		B86FB3E31C17541A0060F494 /* whatsapp-share-button.png in Resources */ = {isa = PBXBuildFile; fileRef = B86FB3E21C17541A0060F494 /* whatsapp-share-button.png */; };
+		B8968D151C15FE53005749C5 /* grey-circle-.png in Resources */ = {isa = PBXBuildFile; fileRef = B8968D141C15FE53005749C5 /* grey-circle-.png */; };
+		B8C52BB31C0E554100FD2875 /* MapModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C52BB21C0E554100FD2875 /* MapModel.m */; };
+		E20CDF301C10EA52007ED62D /* FavoritesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E20CDF2F1C10EA52007ED62D /* FavoritesTableViewController.m */; };
+		E235B9691C10F996004AD1A3 /* favorite_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = E235B9681C10F996004AD1A3 /* favorite_selected.png */; };
+		E268DE8E1C06051C009DAA67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E268DE8D1C06051C009DAA67 /* main.m */; };
+		E268DE911C06051C009DAA67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E268DE901C06051C009DAA67 /* AppDelegate.m */; };
+		E268DE971C06051F009DAA67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E268DE951C06051F009DAA67 /* Main.storyboard */; };
+		E268DE991C060520009DAA67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E268DE981C060520009DAA67 /* Assets.xcassets */; };
+		E268DE9C1C060520009DAA67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E268DE9A1C060520009DAA67 /* LaunchScreen.storyboard */; };
+		E268DEA71C060522009DAA67 /* FTrippTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E268DEA61C060522009DAA67 /* FTrippTests.m */; };
+		E268DEB21C060522009DAA67 /* FTrippUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E268DEB11C060522009DAA67 /* FTrippUITests.m */; };
+		E268DEC11C060CA2009DAA67 /* PlacesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E268DEC01C060CA2009DAA67 /* PlacesTableViewController.m */; };
+		E268DEC41C060CEA009DAA67 /* PlaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E268DEC31C060CEA009DAA67 /* PlaceViewController.m */; };
+		E268DEC71C061067009DAA67 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E268DEC61C061067009DAA67 /* MapViewController.m */; };
+		E268DED11C061F4A009DAA67 /* tabbackg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E268DED01C061F4A009DAA67 /* tabbackg.jpg */; };
+		E268DED31C0622AA009DAA67 /* tabbackg_selected.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E268DED21C0622AA009DAA67 /* tabbackg_selected.jpg */; };
+		E279A25C1C0E695F007B0C0F /* places.db in Resources */ = {isa = PBXBuildFile; fileRef = E279A25B1C0E695F007B0C0F /* places.db */; };
+		E279A25E1C0E6A80007B0C0F /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E279A25D1C0E6A80007B0C0F /* libsqlite3.tbd */; };
+		E279A26E1C0E6EA1007B0C0F /* AMF Stike N Spare Lanes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E279A25F1C0E6EA1007B0C0F /* AMF Stike N Spare Lanes.jpg */; };
+		E279A26F1C0E6EA1007B0C0F /* Central New York Regional Market.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E279A2601C0E6EA1007B0C0F /* Central New York Regional Market.jpg */; };
+		E279A2701C0E6EA1007B0C0F /* Destiny USA.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E279A2611C0E6EA1007B0C0F /* Destiny USA.jpg */; };
+		E279A2711C0E6EA1007B0C0F /* E.M Mills Rose Garden.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E279A2621C0E6EA1007B0C0F /* E.M Mills Rose Garden.jpg */; };
+		E279A2721C0E6EA1007B0C0F /* Erie Canal Museum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E279A2631C0E6EA1007B0C0F /* Erie Canal Museum.jpg */; };
+		E279A2731C0E6EA1007B0C0F /* Fairmont Glenn Miniature Golf.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E279A2641C0E6EA1007B0C0F /* Fairmont Glenn Miniature Golf.jpg */; };
+		E279A2741C0E6EA1007B0C0F /* Museum of Science & Technology.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E279A2651C0E6EA1007B0C0F /* Museum of Science & Technology.jpg */; };
+		E279A2751C0E6EA1007B0C0F /* Onondaga Historical Association.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E279A2661C0E6EA1007B0C0F /* Onondaga Historical Association.jpg */; };
+		E279A2761C0E6EA1007B0C0F /* Pole Position Raceway.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E279A2671C0E6EA1007B0C0F /* Pole Position Raceway.jpg */; };
+		E279A2771C0E6EA1007B0C0F /* Rosamond Grifford Zoo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E279A2681C0E6EA1007B0C0F /* Rosamond Grifford Zoo.jpg */; };
+		E279A2781C0E6EA1007B0C0F /* SRC Arena & Event Center.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E279A2691C0E6EA1007B0C0F /* SRC Arena & Event Center.jpg */; };
+		E279A2791C0E6EA1007B0C0F /* Syracuse Chiefs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E279A26A1C0E6EA1007B0C0F /* Syracuse Chiefs.jpg */; };
+		E279A27A1C0E6EA1007B0C0F /* The Palace Theatre.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E279A26B1C0E6EA1007B0C0F /* The Palace Theatre.jpg */; };
+		E279A27B1C0E6EA1007B0C0F /* Webster Pond.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E279A26C1C0E6EA1007B0C0F /* Webster Pond.jpg */; };
+		E279A27C1C0E6EA1007B0C0F /* Wonder Works.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E279A26D1C0E6EA1007B0C0F /* Wonder Works.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E268DEA31C060521009DAA67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E268DE811C060513009DAA67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E268DE881C06051A009DAA67;
+			remoteInfo = FTripp;
+		};
+		E268DEAE1C060522009DAA67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E268DE811C060513009DAA67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E268DE881C06051A009DAA67;
+			remoteInfo = FTripp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B105A3E1C0752FE008C3174 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4B105A401C075308008C3174 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4B105A421C075345008C3174 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4B105A441C0765B3008C3174 /* favorites_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favorites_icon.png; sourceTree = "<group>"; };
+		4B105A451C0765B3008C3174 /* map_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_icon.png; sourceTree = "<group>"; };
+		4B105A461C0765B3008C3174 /* nearby_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nearby_icon.png; sourceTree = "<group>"; };
+		4B105A471C0765B3008C3174 /* photo_icon_ios.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo_icon_ios.jpg; sourceTree = "<group>"; };
+		4B105A481C0765B3008C3174 /* photo_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo_icon.png; sourceTree = "<group>"; };
+		4B105A491C0765B3008C3174 /* play-button_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play-button_icon.png"; sourceTree = "<group>"; };
+		4B665F941C17AFD9009CFCF8 /* museum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = museum.jpg; sourceTree = "<group>"; };
+		4B665F971C17AFD9009CFCF8 /* shopping.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shopping.jpg; sourceTree = "<group>"; };
+		4B665F981C17AFD9009CFCF8 /* sights.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sights.jpg; sourceTree = "<group>"; };
+		4B665F991C17AFD9009CFCF8 /* games.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = games.jpg; sourceTree = "<group>"; };
+		4B665FA01C17C470009CFCF8 /* outdoor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outdoor.png; sourceTree = "<group>"; };
+		4B665FA41C17C48A009CFCF8 /* Nature & Parks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Nature & Parks.png"; sourceTree = "<group>"; };
+		4B9D135C1C0BE85A00B25ED3 /* photo-frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo-frame.png"; sourceTree = "<group>"; };
+		4B9D13721C0CA98F00B25ED3 /* FlickrPhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPhotosViewController.h; sourceTree = "<group>"; };
+		4B9D13731C0CA98F00B25ED3 /* FlickrPhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhotosViewController.m; sourceTree = "<group>"; };
+		4B9D13751C0CAA4600B25ED3 /* FlickrAPIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrAPIKey.h; sourceTree = "<group>"; };
+		4B9D13761C0CAA4600B25ED3 /* FlickrFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrFetcher.h; sourceTree = "<group>"; };
+		4B9D13771C0CAA4600B25ED3 /* FlickrFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrFetcher.m; sourceTree = "<group>"; };
+		4B9D13791C0CAAD300B25ED3 /* PhotoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoModel.h; sourceTree = "<group>"; };
+		4B9D137A1C0CAAEC00B25ED3 /* PhotoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoModel.m; sourceTree = "<group>"; };
+		4BBD42461C19235C001B2B87 /* icon-camera-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-camera-128.png"; sourceTree = "<group>"; };
+		B81219891C0CF0270007C4BF /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		B812198A1C0CF0270007C4BF /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		B84D34451C0FCBF400AAE1FE /* Syracuse.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Syracuse.gpx; sourceTree = "<group>"; };
+		B86FB3E01C1751FD0060F494 /* whatsapp-Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "whatsapp-Logo.jpg"; sourceTree = "<group>"; };
+		B86FB3E21C17541A0060F494 /* whatsapp-share-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whatsapp-share-button.png"; sourceTree = "<group>"; };
+		B8968D141C15FE53005749C5 /* grey-circle-.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grey-circle-.png"; sourceTree = "<group>"; };
+		B8C52BB01C0E4A7800FD2875 /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		B8C52BB11C0E552600FD2875 /* MapModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapModel.h; sourceTree = "<group>"; };
+		B8C52BB21C0E554100FD2875 /* MapModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapModel.m; sourceTree = "<group>"; };
+		E20CDF2E1C10EA52007ED62D /* FavoritesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesTableViewController.h; sourceTree = "<group>"; };
+		E20CDF2F1C10EA52007ED62D /* FavoritesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesTableViewController.m; sourceTree = "<group>"; };
+		E235B9681C10F996004AD1A3 /* favorite_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favorite_selected.png; sourceTree = "<group>"; };
+		E268DE891C06051A009DAA67 /* FTripp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FTripp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E268DE8D1C06051C009DAA67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E268DE8F1C06051C009DAA67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E268DE901C06051C009DAA67 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E268DE961C06051F009DAA67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E268DE981C060520009DAA67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E268DE9B1C060520009DAA67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E268DE9D1C060521009DAA67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E268DEA21C060521009DAA67 /* FTrippTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FTrippTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E268DEA61C060522009DAA67 /* FTrippTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTrippTests.m; sourceTree = "<group>"; };
+		E268DEA81C060522009DAA67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E268DEAD1C060522009DAA67 /* FTrippUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FTrippUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E268DEB11C060522009DAA67 /* FTrippUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTrippUITests.m; sourceTree = "<group>"; };
+		E268DEB31C060523009DAA67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E268DEBF1C060CA2009DAA67 /* PlacesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlacesTableViewController.h; sourceTree = "<group>"; };
+		E268DEC01C060CA2009DAA67 /* PlacesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlacesTableViewController.m; sourceTree = "<group>"; };
+		E268DEC21C060CEA009DAA67 /* PlaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceViewController.h; sourceTree = "<group>"; };
+		E268DEC31C060CEA009DAA67 /* PlaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceViewController.m; sourceTree = "<group>"; };
+		E268DEC61C061067009DAA67 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewController.m; path = FTripp/MapViewController.m; sourceTree = SOURCE_ROOT; };
+		E268DED01C061F4A009DAA67 /* tabbackg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tabbackg.jpg; sourceTree = "<group>"; };
+		E268DED21C0622AA009DAA67 /* tabbackg_selected.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tabbackg_selected.jpg; sourceTree = "<group>"; };
+		E279A25B1C0E695F007B0C0F /* places.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = places.db; sourceTree = "<group>"; };
+		E279A25D1C0E6A80007B0C0F /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		E279A25F1C0E6EA1007B0C0F /* AMF Stike N Spare Lanes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "AMF Stike N Spare Lanes.jpg"; sourceTree = "<group>"; };
+		E279A2601C0E6EA1007B0C0F /* Central New York Regional Market.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Central New York Regional Market.jpg"; sourceTree = "<group>"; };
+		E279A2611C0E6EA1007B0C0F /* Destiny USA.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Destiny USA.jpg"; sourceTree = "<group>"; };
+		E279A2621C0E6EA1007B0C0F /* E.M Mills Rose Garden.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "E.M Mills Rose Garden.jpg"; sourceTree = "<group>"; };
+		E279A2631C0E6EA1007B0C0F /* Erie Canal Museum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Erie Canal Museum.jpg"; sourceTree = "<group>"; };
+		E279A2641C0E6EA1007B0C0F /* Fairmont Glenn Miniature Golf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Fairmont Glenn Miniature Golf.jpg"; sourceTree = "<group>"; };
+		E279A2651C0E6EA1007B0C0F /* Museum of Science & Technology.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Museum of Science & Technology.jpg"; sourceTree = "<group>"; };
+		E279A2661C0E6EA1007B0C0F /* Onondaga Historical Association.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Onondaga Historical Association.jpg"; sourceTree = "<group>"; };
+		E279A2671C0E6EA1007B0C0F /* Pole Position Raceway.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pole Position Raceway.jpg"; sourceTree = "<group>"; };
+		E279A2681C0E6EA1007B0C0F /* Rosamond Grifford Zoo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Rosamond Grifford Zoo.jpg"; sourceTree = "<group>"; };
+		E279A2691C0E6EA1007B0C0F /* SRC Arena & Event Center.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "SRC Arena & Event Center.jpg"; sourceTree = "<group>"; };
+		E279A26A1C0E6EA1007B0C0F /* Syracuse Chiefs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Syracuse Chiefs.jpg"; sourceTree = "<group>"; };
+		E279A26B1C0E6EA1007B0C0F /* The Palace Theatre.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The Palace Theatre.jpg"; sourceTree = "<group>"; };
+		E279A26C1C0E6EA1007B0C0F /* Webster Pond.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Webster Pond.jpg"; sourceTree = "<group>"; };
+		E279A26D1C0E6EA1007B0C0F /* Wonder Works.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Wonder Works.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E268DE861C06051A009DAA67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E279A25E1C0E6A80007B0C0F /* libsqlite3.tbd in Frameworks */,
+				4B105A431C075345008C3174 /* Foundation.framework in Frameworks */,
+				4B105A411C075308008C3174 /* MapKit.framework in Frameworks */,
+				4B105A3F1C0752FE008C3174 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E268DE9F1C060521009DAA67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E268DEAA1C060522009DAA67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E268DE801C060513009DAA67 = {
+			isa = PBXGroup;
+			children = (
+				E279A25D1C0E6A80007B0C0F /* libsqlite3.tbd */,
+				4B105A421C075345008C3174 /* Foundation.framework */,
+				4B105A401C075308008C3174 /* MapKit.framework */,
+				4B105A3E1C0752FE008C3174 /* CoreLocation.framework */,
+				E268DE8B1C06051A009DAA67 /* FTripp */,
+				E268DEA51C060521009DAA67 /* FTrippTests */,
+				E268DEB01C060522009DAA67 /* FTrippUITests */,
+				E268DE8A1C06051A009DAA67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E268DE8A1C06051A009DAA67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E268DE891C06051A009DAA67 /* FTripp.app */,
+				E268DEA21C060521009DAA67 /* FTrippTests.xctest */,
+				E268DEAD1C060522009DAA67 /* FTrippUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E268DE8B1C06051A009DAA67 /* FTripp */ = {
+			isa = PBXGroup;
+			children = (
+				B84D34451C0FCBF400AAE1FE /* Syracuse.gpx */,
+				E279A25B1C0E695F007B0C0F /* places.db */,
+				4B9D13751C0CAA4600B25ED3 /* FlickrAPIKey.h */,
+				4B9D13761C0CAA4600B25ED3 /* FlickrFetcher.h */,
+				4B9D13771C0CAA4600B25ED3 /* FlickrFetcher.m */,
+				E268DE8F1C06051C009DAA67 /* AppDelegate.h */,
+				E268DE901C06051C009DAA67 /* AppDelegate.m */,
+				E268DE951C06051F009DAA67 /* Main.storyboard */,
+				E268DEBF1C060CA2009DAA67 /* PlacesTableViewController.h */,
+				E268DEC01C060CA2009DAA67 /* PlacesTableViewController.m */,
+				E268DEC21C060CEA009DAA67 /* PlaceViewController.h */,
+				E268DEC31C060CEA009DAA67 /* PlaceViewController.m */,
+				B8C52BB01C0E4A7800FD2875 /* MapViewController.h */,
+				E268DEC61C061067009DAA67 /* MapViewController.m */,
+				B8C52BB11C0E552600FD2875 /* MapModel.h */,
+				B8C52BB21C0E554100FD2875 /* MapModel.m */,
+				E20CDF2E1C10EA52007ED62D /* FavoritesTableViewController.h */,
+				E20CDF2F1C10EA52007ED62D /* FavoritesTableViewController.m */,
+				4B9D13721C0CA98F00B25ED3 /* FlickrPhotosViewController.h */,
+				4B9D13731C0CA98F00B25ED3 /* FlickrPhotosViewController.m */,
+				4B9D13791C0CAAD300B25ED3 /* PhotoModel.h */,
+				4B9D137A1C0CAAEC00B25ED3 /* PhotoModel.m */,
+				B81219891C0CF0270007C4BF /* ImageViewController.h */,
+				B812198A1C0CF0270007C4BF /* ImageViewController.m */,
+				E268DE981C060520009DAA67 /* Assets.xcassets */,
+				E268DE9A1C060520009DAA67 /* LaunchScreen.storyboard */,
+				E268DE9D1C060521009DAA67 /* Info.plist */,
+				E268DE8C1C06051C009DAA67 /* Supporting Files */,
+			);
+			path = FTripp;
+			sourceTree = "<group>";
+		};
+		E268DE8C1C06051C009DAA67 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BBD42461C19235C001B2B87 /* icon-camera-128.png */,
+				4B665FA41C17C48A009CFCF8 /* Nature & Parks.png */,
+				4B665FA01C17C470009CFCF8 /* outdoor.png */,
+				4B665F941C17AFD9009CFCF8 /* museum.jpg */,
+				4B665F971C17AFD9009CFCF8 /* shopping.jpg */,
+				4B665F981C17AFD9009CFCF8 /* sights.jpg */,
+				4B665F991C17AFD9009CFCF8 /* games.jpg */,
+				B86FB3E01C1751FD0060F494 /* whatsapp-Logo.jpg */,
+				B86FB3E21C17541A0060F494 /* whatsapp-share-button.png */,
+				E235B9681C10F996004AD1A3 /* favorite_selected.png */,
+				E279A25F1C0E6EA1007B0C0F /* AMF Stike N Spare Lanes.jpg */,
+				B8968D141C15FE53005749C5 /* grey-circle-.png */,
+				E279A2601C0E6EA1007B0C0F /* Central New York Regional Market.jpg */,
+				E279A2611C0E6EA1007B0C0F /* Destiny USA.jpg */,
+				E279A2621C0E6EA1007B0C0F /* E.M Mills Rose Garden.jpg */,
+				E279A2631C0E6EA1007B0C0F /* Erie Canal Museum.jpg */,
+				E279A2641C0E6EA1007B0C0F /* Fairmont Glenn Miniature Golf.jpg */,
+				E279A2651C0E6EA1007B0C0F /* Museum of Science & Technology.jpg */,
+				E279A2661C0E6EA1007B0C0F /* Onondaga Historical Association.jpg */,
+				E279A2671C0E6EA1007B0C0F /* Pole Position Raceway.jpg */,
+				E279A2681C0E6EA1007B0C0F /* Rosamond Grifford Zoo.jpg */,
+				E279A2691C0E6EA1007B0C0F /* SRC Arena & Event Center.jpg */,
+				E279A26A1C0E6EA1007B0C0F /* Syracuse Chiefs.jpg */,
+				E279A26B1C0E6EA1007B0C0F /* The Palace Theatre.jpg */,
+				E279A26C1C0E6EA1007B0C0F /* Webster Pond.jpg */,
+				E279A26D1C0E6EA1007B0C0F /* Wonder Works.jpg */,
+				4B9D135C1C0BE85A00B25ED3 /* photo-frame.png */,
+				4B105A441C0765B3008C3174 /* favorites_icon.png */,
+				4B105A451C0765B3008C3174 /* map_icon.png */,
+				4B105A461C0765B3008C3174 /* nearby_icon.png */,
+				4B105A471C0765B3008C3174 /* photo_icon_ios.jpg */,
+				4B105A481C0765B3008C3174 /* photo_icon.png */,
+				4B105A491C0765B3008C3174 /* play-button_icon.png */,
+				E268DED21C0622AA009DAA67 /* tabbackg_selected.jpg */,
+				E268DED01C061F4A009DAA67 /* tabbackg.jpg */,
+				E268DE8D1C06051C009DAA67 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E268DEA51C060521009DAA67 /* FTrippTests */ = {
+			isa = PBXGroup;
+			children = (
+				E268DEA61C060522009DAA67 /* FTrippTests.m */,
+				E268DEA81C060522009DAA67 /* Info.plist */,
+			);
+			path = FTrippTests;
+			sourceTree = "<group>";
+		};
+		E268DEB01C060522009DAA67 /* FTrippUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E268DEB11C060522009DAA67 /* FTrippUITests.m */,
+				E268DEB31C060523009DAA67 /* Info.plist */,
+			);
+			path = FTrippUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E268DE881C06051A009DAA67 /* FTripp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E268DEB61C060523009DAA67 /* Build configuration list for PBXNativeTarget "FTripp" */;
+			buildPhases = (
+				E268DE851C06051A009DAA67 /* Sources */,
+				E268DE861C06051A009DAA67 /* Frameworks */,
+				E268DE871C06051A009DAA67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FTripp;
+			productName = FTripp;
+			productReference = E268DE891C06051A009DAA67 /* FTripp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E268DEA11C060521009DAA67 /* FTrippTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E268DEB91C060523009DAA67 /* Build configuration list for PBXNativeTarget "FTrippTests" */;
+			buildPhases = (
+				E268DE9E1C060521009DAA67 /* Sources */,
+				E268DE9F1C060521009DAA67 /* Frameworks */,
+				E268DEA01C060521009DAA67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E268DEA41C060521009DAA67 /* PBXTargetDependency */,
+			);
+			name = FTrippTests;
+			productName = FTrippTests;
+			productReference = E268DEA21C060521009DAA67 /* FTrippTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E268DEAC1C060522009DAA67 /* FTrippUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E268DEBC1C060523009DAA67 /* Build configuration list for PBXNativeTarget "FTrippUITests" */;
+			buildPhases = (
+				E268DEA91C060522009DAA67 /* Sources */,
+				E268DEAA1C060522009DAA67 /* Frameworks */,
+				E268DEAB1C060522009DAA67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E268DEAF1C060522009DAA67 /* PBXTargetDependency */,
+			);
+			name = FTrippUITests;
+			productName = FTrippUITests;
+			productReference = E268DEAD1C060522009DAA67 /* FTrippUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E268DE811C060513009DAA67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Sri Charan Gummadi";
+				TargetAttributes = {
+					E268DE881C06051A009DAA67 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 9F7J7RG5K9;
+					};
+					E268DEA11C060521009DAA67 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = E268DE881C06051A009DAA67;
+					};
+					E268DEAC1C060522009DAA67 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = E268DE881C06051A009DAA67;
+					};
+				};
+			};
+			buildConfigurationList = E268DE841C060513009DAA67 /* Build configuration list for PBXProject "FTripp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E268DE801C060513009DAA67;
+			productRefGroup = E268DE8A1C06051A009DAA67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E268DE881C06051A009DAA67 /* FTripp */,
+				E268DEA11C060521009DAA67 /* FTrippTests */,
+				E268DEAC1C060522009DAA67 /* FTrippUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E268DE871C06051A009DAA67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E268DE9C1C060520009DAA67 /* LaunchScreen.storyboard in Resources */,
+				4B105A4F1C0765B3008C3174 /* play-button_icon.png in Resources */,
+				E279A2791C0E6EA1007B0C0F /* Syracuse Chiefs.jpg in Resources */,
+				4B665F9A1C17AFD9009CFCF8 /* museum.jpg in Resources */,
+				4B665FA21C17C470009CFCF8 /* outdoor.png in Resources */,
+				E279A2741C0E6EA1007B0C0F /* Museum of Science & Technology.jpg in Resources */,
+				B84D34461C0FCBF400AAE1FE /* Syracuse.gpx in Resources */,
+				E279A2711C0E6EA1007B0C0F /* E.M Mills Rose Garden.jpg in Resources */,
+				B86FB3E11C1751FD0060F494 /* whatsapp-Logo.jpg in Resources */,
+				E279A26E1C0E6EA1007B0C0F /* AMF Stike N Spare Lanes.jpg in Resources */,
+				4B105A4E1C0765B3008C3174 /* photo_icon.png in Resources */,
+				E268DE991C060520009DAA67 /* Assets.xcassets in Resources */,
+				4B665F9D1C17AFD9009CFCF8 /* shopping.jpg in Resources */,
+				E279A25C1C0E695F007B0C0F /* places.db in Resources */,
+				4B665F9E1C17AFD9009CFCF8 /* sights.jpg in Resources */,
+				4B665F9F1C17AFD9009CFCF8 /* games.jpg in Resources */,
+				E268DED31C0622AA009DAA67 /* tabbackg_selected.jpg in Resources */,
+				E279A2771C0E6EA1007B0C0F /* Rosamond Grifford Zoo.jpg in Resources */,
+				E279A2731C0E6EA1007B0C0F /* Fairmont Glenn Miniature Golf.jpg in Resources */,
+				E279A27C1C0E6EA1007B0C0F /* Wonder Works.jpg in Resources */,
+				E279A2781C0E6EA1007B0C0F /* SRC Arena & Event Center.jpg in Resources */,
+				E279A2701C0E6EA1007B0C0F /* Destiny USA.jpg in Resources */,
+				4B9D136D1C0BE85A00B25ED3 /* photo-frame.png in Resources */,
+				4B105A4C1C0765B3008C3174 /* nearby_icon.png in Resources */,
+				E268DED11C061F4A009DAA67 /* tabbackg.jpg in Resources */,
+				B8968D151C15FE53005749C5 /* grey-circle-.png in Resources */,
+				E279A26F1C0E6EA1007B0C0F /* Central New York Regional Market.jpg in Resources */,
+				E235B9691C10F996004AD1A3 /* favorite_selected.png in Resources */,
+				4B105A4A1C0765B3008C3174 /* favorites_icon.png in Resources */,
+				4BBD42471C19235C001B2B87 /* icon-camera-128.png in Resources */,
+				E279A2751C0E6EA1007B0C0F /* Onondaga Historical Association.jpg in Resources */,
+				E279A2721C0E6EA1007B0C0F /* Erie Canal Museum.jpg in Resources */,
+				E268DE971C06051F009DAA67 /* Main.storyboard in Resources */,
+				4B665FA51C17C48A009CFCF8 /* Nature & Parks.png in Resources */,
+				4B105A4B1C0765B3008C3174 /* map_icon.png in Resources */,
+				E279A27A1C0E6EA1007B0C0F /* The Palace Theatre.jpg in Resources */,
+				4B105A4D1C0765B3008C3174 /* photo_icon_ios.jpg in Resources */,
+				B86FB3E31C17541A0060F494 /* whatsapp-share-button.png in Resources */,
+				E279A27B1C0E6EA1007B0C0F /* Webster Pond.jpg in Resources */,
+				E279A2761C0E6EA1007B0C0F /* Pole Position Raceway.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E268DEA01C060521009DAA67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E268DEAB1C060522009DAA67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E268DE851C06051A009DAA67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8C52BB31C0E554100FD2875 /* MapModel.m in Sources */,
+				E268DEC41C060CEA009DAA67 /* PlaceViewController.m in Sources */,
+				E268DEC11C060CA2009DAA67 /* PlacesTableViewController.m in Sources */,
+				E20CDF301C10EA52007ED62D /* FavoritesTableViewController.m in Sources */,
+				E268DEC71C061067009DAA67 /* MapViewController.m in Sources */,
+				B812198B1C0CF0270007C4BF /* ImageViewController.m in Sources */,
+				E268DE911C06051C009DAA67 /* AppDelegate.m in Sources */,
+				4B9D137B1C0CAAEC00B25ED3 /* PhotoModel.m in Sources */,
+				E268DE8E1C06051C009DAA67 /* main.m in Sources */,
+				4B9D13781C0CAA4600B25ED3 /* FlickrFetcher.m in Sources */,
+				4B9D13741C0CA98F00B25ED3 /* FlickrPhotosViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E268DE9E1C060521009DAA67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E268DEA71C060522009DAA67 /* FTrippTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E268DEA91C060522009DAA67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E268DEB21C060522009DAA67 /* FTrippUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E268DEA41C060521009DAA67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E268DE881C06051A009DAA67 /* FTripp */;
+			targetProxy = E268DEA31C060521009DAA67 /* PBXContainerItemProxy */;
+		};
+		E268DEAF1C060522009DAA67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E268DE881C06051A009DAA67 /* FTripp */;
+			targetProxy = E268DEAE1C060522009DAA67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E268DE951C06051F009DAA67 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E268DE961C06051F009DAA67 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E268DE9A1C060520009DAA67 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E268DE9B1C060520009DAA67 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E268DEB41C060523009DAA67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E268DEB51C060523009DAA67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E268DEB71C060523009DAA67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = FTripp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sricharan.gummadi.FTripp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E268DEB81C060523009DAA67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = FTripp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sricharan.gummadi.FTripp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E268DEBA1C060523009DAA67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FTrippTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sricharan.gummadi.FTrippTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FTripp.app/FTripp";
+			};
+			name = Debug;
+		};
+		E268DEBB1C060523009DAA67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FTrippTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sricharan.gummadi.FTrippTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FTripp.app/FTripp";
+			};
+			name = Release;
+		};
+		E268DEBD1C060523009DAA67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FTrippUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sricharan.gummadi.FTrippUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FTripp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E268DEBE1C060523009DAA67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FTrippUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sricharan.gummadi.FTrippUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FTripp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E268DE841C060513009DAA67 /* Build configuration list for PBXProject "FTripp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E268DEB41C060523009DAA67 /* Debug */,
+				E268DEB51C060523009DAA67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E268DEB61C060523009DAA67 /* Build configuration list for PBXNativeTarget "FTripp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E268DEB71C060523009DAA67 /* Debug */,
+				E268DEB81C060523009DAA67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E268DEB91C060523009DAA67 /* Build configuration list for PBXNativeTarget "FTrippTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E268DEBA1C060523009DAA67 /* Debug */,
+				E268DEBB1C060523009DAA67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E268DEBC1C060523009DAA67 /* Build configuration list for PBXNativeTarget "FTrippUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E268DEBD1C060523009DAA67 /* Debug */,
+				E268DEBE1C060523009DAA67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E268DE811C060513009DAA67 /* Project object */;
+}

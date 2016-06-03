@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<gpx version="1.1" 
+    creator="Acquamacs"
+    author="RJ Irwin"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.topografix.com/GPX/1/1"
+    xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+    
+    
+    <wpt lat="43.069269" lon="-76.174873">
+        <name>Destiny USA</name>
+    </wpt>
+    <wpt lat="43.0389779" lon="-76.1303788">
+        <name>Rose garden</name>
+    </wpt>
+  
+    
+    
+
+
+</gpx>
